@@ -1,0 +1,1 @@
+ethminer -F http://ethpool.org/miner/0xa850c5af189e99871ec072b08fc5c91fd14fc2eb/7 -G  

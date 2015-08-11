@@ -1,0 +1,5 @@
+web3.eth.sendTransaction({from: web3.eth.coinbase, to: '0x2d96cefbdec4c5a6ea88d9496fdeddefa561adcd', value: web3.toWei(1, 'ether'), gas:21000});"
+
+^That command sends 1 ether to my desktop address "0x2d96cefbdec4c5a6ea88d9496fdeddefa561adcd" from "web3.eth.coinbase" which is the address the miner sends ether block rewards
+
+Support the work, and send a cup of coffee my way with that command after you struck your first block reward!

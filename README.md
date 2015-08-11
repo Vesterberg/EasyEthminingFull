@@ -1,5 +1,9 @@
 # EthminerBatchscripts
 
+Install CUDA from https://developer.nvidia.com/cuda-downloads for nvida GPU cards or AMD drivers for AMD GPUs
+
+Transaction commands cannot be turned into a .bat file. You have to manually edit the target address and then copy&paste the command from "Geth console transaction command example.txt".
+
 Extract the .zip file under your c:\ drive to prevent the windows 260 character file path limitation 
 
 Binaries are included but feel free to replace them with binaries from the cpp-ethereum and go-ethereum releases
@@ -25,5 +29,4 @@ Use-2-StartEthminerGPU.bat
 Use-2-StartEthminerGPUethpoolorg.bat  
 ^ Starts mining on ethpool, remember to change the ether address to your own  
 
-
-
+Happy mining!

@@ -3,20 +3,15 @@
 #Setting up a GPU mining machine
 
 Setup step 1
-
 Install Visual studio 2013 redist from http://www.microsoft.com/en-US/download/details.aspx?id=40784 
-
 Or run the repo copy of the installation file named: "Setup-Step-1-vcredist_x86.exe". 
 
 Setup step 2
-
 Install CUDA from https://developer.nvidia.com/cuda-downloads
 Or run the repo copy of the installation file named: "InstallThis-cuda_7.0.28_windows_network.exe"
 
 Setup step 3
-
 Download Nvidia GPU drivers from Nvidias site: http://www.nvidia.com/Download/index.aspx?lang=en-us
-
 Or click the file link named "Setup-Step-3-DownloadAndInstallNVIDIADrivers.html" that is included in the .zip file of this repo.
 
 Setup step 4
@@ -42,7 +37,6 @@ And check your ether wallet for payouts daily
 Run "Alternative-2-Use-Step-1-StartGethSendWorkpackets128MaxPeersLogConsole.bat"
 
 Run "Alternative-2-Use-Step-2-Check-AmountOfPeers(!)IMPORTANT(!)MustBeOver"10"forLocalMining.bat"
-
 Check that the amount of peers are over 10. You will risk losing block rewards if the peer count is lower than 10.
 
 Run "Alternative-2-Use-Step-3-StartEthminerGPU.bat"
@@ -62,9 +56,7 @@ Ethereum binaries are included but feel free to replace them with binaries from 
 Feel free to replace the other binaries too from their official source.
 
 Visual studio 2013 redist from http://www.microsoft.com/en-US/download/details.aspx?id=40784
-
 CUDA from https://developer.nvidia.com/cuda-downloads
-
 Nvidia GPU drivers from Nvidias site: http://www.nvidia.com/Download/index.aspx?lang=en-us
 
 Happy mining!

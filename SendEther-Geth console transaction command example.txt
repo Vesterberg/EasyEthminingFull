@@ -1,7 +1,7 @@
 web3.eth.sendTransaction({from: web3.eth.coinbase, to: '0x2d96cefbdec4c5a6ea88d9496fdeddefa561adcd', value: web3.toWei(1, 'ether'), gas:21000});
 
-^That command sends 1 ether to my desktop address "0x2d96cefbdec4c5a6ea88d9496fdeddefa561adcd" from "web3.eth.coinbase" which is the address the miner sends ether block rewards
+^That command sends 1 ether to my address "0x2d96cefbdec4c5a6ea88d9496fdeddefa561adcd" from "web3.eth.coinbase" which is the address the miner sends ether block rewards
 
-Paste it into the geth console. It will look wierd with repeating rolling text and other matrixlike nonsense. I've tested it and it works. Just hit enter. It will prompt you to unlock the account with the passphrase so that it can send the ether.
+Paste it into the geth console. It will look wierd with repeating rolling text and other matrixlike text. I've tested it and it works. I only needed to hit enter. It will prompt you to unlock the account with the passphrase so that it can send the ether.
 
-Support the work, and send a cup of coffee my way with that command after you struck your first block reward!
+Support the work and send a cup of coffee my way with that command after you've stuck your first block reward!

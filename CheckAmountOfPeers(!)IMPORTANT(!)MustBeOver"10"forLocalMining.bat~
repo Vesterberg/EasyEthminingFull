@@ -1,2 +1,0 @@
-geth --exec "web3.net.peerCount" attach 
-timeout /t 30 /nobreak

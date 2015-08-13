@@ -10,8 +10,5 @@ ethminer -G
 --no-precompute 
 //noprecompute means that the dag isnt precomputed. Im not sure what dag is but it decides what block settings the miner should have. I.e. gas limits. This means that it uses the dag settings that is sent to it from the network. This makes sure that you are not left behind if the network is on a new geth version with massively higher gas limits. But I might be wrong.
 
--t 6
-//Enables the ethminer to start processes for up to 6 GPUs
-
 goto start
 // restarts ethminer -G

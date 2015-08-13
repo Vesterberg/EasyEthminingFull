@@ -1,9 +1,3 @@
-@geth off 
-//checks if geth is shutdown
-
-:start
-//starts geth
-
 geth 
 //starts geth
 
@@ -20,6 +14,3 @@ console
 
 2>>geth.log 
 //logs console output (mined blocks, work done etc but NOT gpu hashrate) to "geth.log" Use Notepad++ to view properly.
-
-goto start
-// restarts geth if it shuts off

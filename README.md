@@ -1,4 +1,5 @@
 # EasyEthmining
+:---------------:
 
 ##Setting up a GPU mining machine
 

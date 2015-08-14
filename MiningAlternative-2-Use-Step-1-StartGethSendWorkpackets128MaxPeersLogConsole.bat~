@@ -1,1 +1,0 @@
-geth --autodag -rpc --maxpeers "128" console 2>>geth.log
